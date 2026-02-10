@@ -3,26 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>تحويل — تصفيات قلقيلية</title>
-
-  <!-- Redirect فوري -->
-  <meta http-equiv="refresh" content="0; url=https://tasfiat-qalqilia.ps/ar" />
-
-  <script>
-    // بديل للـ meta refresh (أوضح للمتصفحات)
-    window.location.replace("https://tasfiat-qalqilia.ps/ar");
-  </script>
-
+  <title>ديمو — تصفيات قلقيلية (عرض داخل الصفحة)</title>
   <style>
-    body{font-family: system-ui, -apple-system, "Tajawal", Arial; margin:40px; line-height:1.8; background:#0f1115; color:#fff}
-    .box{max-width:820px;margin:auto;padding:24px;border:1px solid #333;border-radius:14px}
+    body{margin:0;background:#0f1115;color:#fff;font-family:system-ui,-apple-system,"Tajawal",Arial}
+    .top{padding:12px 16px;border-bottom:1px solid #222}
+    .frame{width:100%;height:calc(100vh - 58px);border:0;display:block}
     a{color:#fe930e}
   </style>
 </head>
 <body>
-  <div class="box">
-    <p>جارٍ تحويلك إلى الصفحة الرئيسية…</p>
-    <p>إذا لم يتم التحويل تلقائيًا: <a href="https://tasfiat-qalqilia.ps/ar">اضغط هنا</a></p>
+  <div class="top">
+    <span>عرض مباشر للموقع داخل الديمو.</span>
+    <span>— إذا ظهر خطأ/فراغ: الموقع يمنع iframe.</span>
+    <a href="https://tasfiat-qalqilia.ps/ar" style="margin-right:10px">فتح الموقع مباشرة</a>
   </div>
+
+  <iframe class="frame" src="https://tasfiat-qalqilia.ps/ar" loading="lazy"></iframe>
 </body>
 </html>
